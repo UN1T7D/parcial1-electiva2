@@ -7,12 +7,13 @@ Widget CustomInputFieldPassword(String placeholder, String label) {
       prefixIcon: Icon(
         Icons.password,
         size: 20,
+        color: Colors.red,
       ),
       hintText: placeholder,
       labelText: label,
       labelStyle: TextStyle(
         fontSize: 16,
-        color: Colors.black45,
+        color: Colors.black,
         fontFamily: "Arial",
       ),
       border: OutlineInputBorder(

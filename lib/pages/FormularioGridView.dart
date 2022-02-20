@@ -32,9 +32,20 @@ class Formulario extends StatelessWidget {
             Center(child: CustomButton("Cancelar")),
           ],
         ),
-        Text("Jonathan Ezequiel Benito Pineda / 25-4752-2016" , style: TextStyle(fontSize: 15, color: Colors.white),),
-        Text("Kevin Alexander Aquino Vasquez / 17-0942-2017" , style: TextStyle(fontSize: 15, color: Colors.white),),
-        Text("Actividad para el parcial #1" , style: TextStyle(fontSize: 15, color: Colors.white),)
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            Text("Jonathan Ezequiel Benito Pineda" , style: TextStyle(fontSize: 15, color: Colors.white),),
+            Text("25-4752-2016" , style: TextStyle(fontSize: 15, color: Colors.white , backgroundColor: Colors.red),),
+          ],
+        ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            Text("Kevin Alexander Aquino Vasquez" , style: TextStyle(fontSize: 15, color: Colors.white),),
+            Text("17-0942-2017" , style: TextStyle(fontSize: 15, color: Colors.white, backgroundColor: Colors.red),),
+          ],
+        )
       ],
     );
   }

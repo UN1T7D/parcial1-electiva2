@@ -6,12 +6,13 @@ Widget CustomInputFieldApellido(String label, String placeholder) {
       prefixIcon: Icon(
         Icons.perm_contact_cal_sharp,
         size: 20,
+        color: Colors.red,
       ),
       hintText: placeholder,
       labelText: label,
       labelStyle: TextStyle(
         fontSize: 16,
-        color: Colors.black45,
+        color: Colors.black,
         fontFamily: "Arial",
       ),
       border: OutlineInputBorder(

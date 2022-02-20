@@ -6,12 +6,13 @@ Widget CustomInputFieldNombre(String label, String placeholder) {
       prefixIcon: Icon(
         Icons.person,
         size: 20,
+        color: Colors.red,
       ),
       hintText: placeholder,
       labelText: label,
       labelStyle: TextStyle(
         fontSize: 16,
-        color: Colors.black45,
+        color: Colors.black,
         fontFamily: "Arial",
       ),
       border: OutlineInputBorder(
